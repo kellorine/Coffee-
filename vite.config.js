@@ -1,8 +1,8 @@
+// vite.config.js or vite.config.ts
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Coffee-/', // <-- your repo name
   plugins: [react()],
-  base: "/rej_coffee/",
 });
